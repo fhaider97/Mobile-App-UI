@@ -38,7 +38,7 @@ class _HomeState extends State<Home> {
                     height: 48,
                     width: 150,
                     decoration: BoxDecoration(
-                        color: Color.fromRGBO(91, 47, 99, 1.0),
+                        color: Color.fromRGBO(91, 46, 98, 1.0),
                         border: Border.all(
                           color: Colors.transparent,
                         ),
@@ -48,11 +48,10 @@ class _HomeState extends State<Home> {
                       Container(
                         width: 45,
                         height: 50,
-                        // color: Colors.purple,
                         decoration: BoxDecoration(
-                          color: Colors.purple[400],
+                          color: Color.fromRGBO(0, 84, 210, 0.15),
                           border: Border.all(
-                            color: Colors.purple,
+                            color: Color.fromRGBO(0, 84, 210, 0.15),
                           ),
                           borderRadius: const BorderRadius.all(
                             Radius.circular(8),
@@ -83,9 +82,8 @@ class _HomeState extends State<Home> {
                     child: Container(
                       height: 48,
                       width: 155,
-                      // color: Colors.white,
                       decoration: BoxDecoration(
-                          color: Color.fromRGBO(7, 100, 40, 1.0),
+                          color: Color.fromRGBO(46, 98, 76, 1),
                           border: Border.all(color: Colors.transparent),
                           borderRadius: BorderRadius.circular(10)),
                       child: Row(
@@ -93,9 +91,9 @@ class _HomeState extends State<Home> {
                           Container(
                             height: 45,
                             width: 50,
-                            //   color: Colors.lightGreen[100],
                             decoration: BoxDecoration(
-                                color: Colors.green[600],
+                                color: Color.fromRGBO(0, 210, 210, 0.15),
+                                //  Colors.green[600],
                                 border: Border.all(color: Colors.transparent),
                                 borderRadius: BorderRadius.circular(10)),
                             child: Padding(
@@ -128,14 +126,6 @@ class _HomeState extends State<Home> {
                       ),
                     ),
                   ),
-                  // SizedBox(
-                  //   height: 10,
-                  // ),
-                  // Row(
-                  //   children: [
-                  //     ContainerFunc("Assets/Images/Vector.png", Colors.brown)
-                  //   ],
-                  // )
                 ]),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 10),
@@ -143,14 +133,17 @@ class _HomeState extends State<Home> {
                     children: [
                       ContainerFunc(
                           "Assets/Images/Financial Institution.png",
-                          Color.fromRGBO(171, 120, 78, 1),
-                          Colors.brown,
+                          Color.fromRGBO(94, 98, 46, 1),
+                          Color.fromRGBO(112, 255, 0, 0.15),
                           "Send To Bank"),
                       SizedBox(
                         width: 10,
                       ),
-                      ContainerFunc("Assets/Images/Vector1.png", Colors.red,
-                          Color.fromRGBO(161, 0, 15, 1.0), "Self Transfer")
+                      ContainerFunc(
+                          "Assets/Images/Vector1.png",
+                          Color.fromRGBO(98, 46, 58, 1),
+                          Color.fromRGBO(210, 0, 189, 0.15),
+                          "Self Transfer")
                     ],
                   ),
                 ),
@@ -179,17 +172,17 @@ class _HomeState extends State<Home> {
                       // ),
                       ContainerFunc(
                           "Assets/Images/Light Mode.png",
-                          Color.fromRGBO(0, 177, 64, 1),
-                          Colors.lightGreen[400],
+                          Color.fromRGBO(50, 101, 42, 1),
+                          Color.fromRGBO(59, 196, 255, 0.15),
                           "Electricity Bill"),
                       SizedBox(
                         width: 10,
                       ),
                       ContainerFunc(
                           "Assets/Images/Iphone.png",
-                          Color.fromRGBO(91, 47, 99, 1.0),
-                          Colors.deepPurple,
-                          "Mobile Recharge"),
+                          Color.fromRGBO(101, 42, 95, 1),
+                          Color.fromRGBO(255, 130, 59, 0.15),
+                          " Mobile\nRecharge"),
                     ],
                   ),
                 ),
@@ -202,16 +195,16 @@ class _HomeState extends State<Home> {
                     children: [
                       ContainerFunc(
                           "Assets/Images/Play.png",
-                          Color.fromRGBO(166, 10, 61, 1),
-                          Colors.brown[400],
+                          Color.fromRGBO(101, 42, 42, 1),
+                          Color.fromRGBO(75, 255, 59, 0.15),
                           "DTH Recharge"),
                       SizedBox(
                         width: 10,
                       ),
                       ContainerFunc(
                           "Assets/Images/minus.png",
-                          Color.fromRGBO(0, 105, 148, 1),
-                          Colors.deepPurple[300],
+                          Color.fromRGBO(42, 64, 101, 1),
+                          Color.fromRGBO(255, 59, 141, 0.15),
                           "postpaid Bill")
                     ],
                   ),
